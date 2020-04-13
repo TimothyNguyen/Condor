@@ -24,4 +24,4 @@ public welfare.
 
 ## Contributing
 
-Contribute by reporting bugs, requesting features or submiting improvements! We made this for you and would ❤️ any feedback or contributions to make **Tina Grande** better for everyone.
+**BUILD** is a fantastic way to apply your knowledge gained from class to impact lives. We work in small teams to build technological solutions for nonprofits and local businesses. We are looking forward to the growth of **BUILD** as more people get involved. We have applications for business and project developers at the beginning of each semester.
