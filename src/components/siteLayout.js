@@ -53,7 +53,7 @@ const CreatePostButton = createRemarkButton({
           date: new Date(),
           type: "post",
           path: `/${slug}`,
-          draft: true,
+          draft: false,
         })
       }, 1000)
     })
