@@ -1,0 +1,11 @@
+{
+  "path": "/",
+  "title": "Home",
+  "pageType": "list",
+  "listType": "post",
+  "hero": {
+    "image": "../images/coffee-beans.jpg",
+    "large": true,
+    "overlay": true
+  }
+}

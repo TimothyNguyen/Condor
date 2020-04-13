@@ -1,0 +1,11 @@
+{
+  "menuItems": [
+    {
+      "label": "Home",
+      "link": "/"
+    }
+  ],
+  "__gatsby_resolved": {
+    "fileRelativePath": "/content/settings/menu.json"
+  }
+}
