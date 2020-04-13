@@ -11,16 +11,15 @@ hero:
   large: false
   overlay: true
 ---
-> **BUILD UMass** is a student organization at UMass Amherst 
+> **BUILD UMass** is a student organization at UMass Amherst committed to providing non-profits, startups and local businesses with scalable technological solutions through pro-bono consulting engagements.
 
-## Getting Started
+# **About Us**
 
 ```shell-session
-git clone https://github.com/tinacms/tina-starter-grande.git
-
-cd tina-starter-grande
-
-yarn install && gatsby develop
+BUILD strives to make technology easy 
+to use and convenient for those who 
+create communities and promote 
+public welfare.
 ```
 
 ## Contributing
