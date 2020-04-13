@@ -1,0 +1,24 @@
+{
+  "authors": [
+    {
+      "name": "Ben Super",
+      "id": "zl59y30wu",
+      "email": "bensuper@umass.edu",
+      "link": ""
+    },
+    {
+      "name": "Timothy Nguyen",
+      "id": "timothy-nguyen",
+      "email": "test@test.com"
+    },
+    {
+      "id": "scott-byrne",
+      "name": "Scott Byrne",
+      "email": "scott.byrne@forestry.io",
+      "link": "mailto:scott.byrne@forestry.io"
+    }
+  ],
+  "__gatsby_resolved": {
+    "fileRelativePath": "/content/settings/authors.json"
+  }
+}
