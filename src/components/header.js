@@ -1,6 +1,6 @@
 import React from "react"
 import { Wrapper } from "./style"
-import { Coffee } from "styled-icons/boxicons-regular"
+import { Laptop } from "styled-icons/boxicons-regular"
 import styled, { css } from "styled-components"
 import { transparentize } from "polished"
 import { Nav } from "./nav"
@@ -15,7 +15,7 @@ export const Header = styled(({ siteTitle, ...styleProps }) => {
           <HeaderWrapper>
             <SiteTitle>
               <SiteLink to="/">
-                <Coffee />
+                <Laptop />
                 {siteTitle}
               </SiteLink>
             </SiteTitle>

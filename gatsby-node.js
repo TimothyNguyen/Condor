@@ -143,6 +143,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     }
   `)
 
+  let numPagesTotal = 0;
+
   if (result.errors) {
     reporter.panicOnBuild(`Error while running GraphQL query.`)
     return
@@ -157,6 +159,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   })
 
   result.data.posts.edges.forEach(({ node }) => {
+    numPagesTotal++;
     if (!node.published) return
 
     createPage({
@@ -171,8 +174,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     const listType = node.listType
     const allPosts = result.data.posts.edges
     const posts = allPosts.filter(post => post.type === listType)
-    const postsPerPage = 5
-    const numPages = Math.max(Math.ceil(posts.length / postsPerPage), 1)
+    const postsPerPage = 10
+    const numPages = Math.max(Math.ceil(posts.length / postsPerPage), Math.ceil((numPagesTotal - 1)/postsPerPage))
     const slug = node.path
 
     Array.from({ length: numPages }).forEach((_, i) => {
