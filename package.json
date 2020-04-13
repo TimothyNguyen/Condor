@@ -1,9 +1,9 @@
 {
-  "name": "tina-grande",
+  "name": "condor",
   "private": true,
-  "description": "A configurable starter for Gatsby & Tina",
+  "description": "A CMS built for BUILD UMASS",
   "version": "0.1.0",
-  "author": "Scott Byrne <scott.byrne@forestry.io>",
+  "author": "Timothy Nguyen <quynhthoa1972@gmail.com>",
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
